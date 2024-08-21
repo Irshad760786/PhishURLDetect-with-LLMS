@@ -145,7 +145,7 @@ if __name__ == "__main__":
     
     # Load the GPT-2 tokenizer and model
     print('Loading tokenizer...')
-    tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+    tokenizer = GPT2Tokenizer.from_pretrained('FineTuned-gpt2-tokenizer')
 
     # Define padding token
     tokenizer.padding_side = "left"
