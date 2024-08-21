@@ -128,7 +128,7 @@ def main():
 
     train_df, val_df, test_df = load_data()
     print('Loading tokenizer...')
-    tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
+    tokenizer = RobertaTokenizer.from_pretrained('FineTuned RoBERTa-tokenizer')
     tokenizer.padding_side = "right"
     tokenizer.pad_token = tokenizer.eos_token
 
